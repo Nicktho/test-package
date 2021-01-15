@@ -1,0 +1,19 @@
+{
+  "name": "@nicktho/test-package",
+  "version": "1.0.0",
+  "description": "Test package for nicktho/is-published-on-npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicktho/test-package.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nicktho/test-package/issues"
+  },
+  "homepage": "https://github.com/Nicktho/test-package#readme"
+}
