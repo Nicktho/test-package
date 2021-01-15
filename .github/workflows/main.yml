@@ -13,7 +13,7 @@ jobs:
       - uses: nicktho/is-published-on-npm@v1
         id: is-published
       - name: Release
-        if: ${{ !steps.is-published.outputs.published }}
+        if: ${{ steps.is-published.outputs.published == 'false' }}
         uses: actions/create-release@v1
         with:
           tag_name: ${{ steps.is-published.outputs.version }}
